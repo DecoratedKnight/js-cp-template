@@ -1,9 +1,10 @@
 import _ from 'lodash'
+import * as fs from 'fs'
 
-const component = () => {
-  let element = document.createElement('div')
-  element.innerHTML = _.join(['Hello', 'webpack'], ' ')
-  return element
+const main = (input) => {
+  input = input.split('\n')[0]
+  input = input.split(' ')
+  console.log(_.join(input, '-'))
 }
 
-document.body.appendChild(component())
+main(fs.readFileSync('/dev/stdin', 'utf8'))
