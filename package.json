@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
+    "test": "node ./dist/main.js",
+    "build": "webpack",
+    "setup": "mv ./templates/index.js ./src/index.js"
   },
   "keywords": [],
   "author": "",
