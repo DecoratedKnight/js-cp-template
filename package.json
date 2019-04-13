@@ -6,7 +6,8 @@
   "scripts": {
     "test": "node ./dist/main.js",
     "build": "webpack",
-    "setup": "cp ./templates/index.js ./src/index.js"
+    "setup": "cp ./templates/index.js ./src/index.js",
+    "clip": "pbcopy < ./dist/main.js"
   },
   "keywords": [],
   "author": "",
