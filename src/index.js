@@ -1,10 +1,13 @@
-import _ from 'lodash'
-import * as fs from 'fs'
+// import _ from 'lodash'
+// import * as fs from 'fs'
 
-const main = (input) => {
-  input = input.split('\n')[0]
-  input = input.split(' ')
-  console.log(_.join(input, '-'))
-}
+// const main = (input) => {
+//   input = input.split('\n')[0]
+//   input = input.split(' ')
+//   console.log(_.join(input, '-'))
+// }
 
-main(fs.readFileSync('/dev/stdin', 'utf8'))
+// main(fs.readFileSync('/dev/stdin', 'utf8'))
+
+const {a, b} = {a: 'aaa', b: 'bbb'}
+console.log(a)
