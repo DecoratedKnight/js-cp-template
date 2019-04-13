@@ -1,5 +1,5 @@
 import * as fs from 'fs'
-import "@babel/polyfill";
+import "@babel/polyfill"
 
 const main = (input) => {
   
