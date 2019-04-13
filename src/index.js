@@ -1,5 +1,6 @@
 // import _ from 'lodash'
 // import * as fs from 'fs'
+import "@babel/polyfill";
 
 // const main = (input) => {
 //   input = input.split('\n')[0]
