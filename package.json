@@ -19,7 +19,6 @@
     "webpack-cli": "^3.3.0"
   },
   "dependencies": {
-    "@babel/polyfill": "^7.4.3",
-    "lodash": "^4.17.11"
+    "@babel/polyfill": "^7.4.3"
   }
 }
