@@ -9,5 +9,4 @@
 
 // main(fs.readFileSync('/dev/stdin', 'utf8'))
 
-const {a, b} = {a: 'aaa', b: 'bbb'}
-console.log(a)
+console.log([1,2,3].includes(1))
