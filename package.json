@@ -20,6 +20,7 @@
     "webpack-cli": "^3.3.0"
   },
   "dependencies": {
-    "@babel/polyfill": "^7.4.3"
+    "@babel/polyfill": "^7.4.3",
+    "big-integer": "^1.6.43"
   }
 }
