@@ -21,6 +21,7 @@
   },
   "dependencies": {
     "@babel/polyfill": "^7.4.3",
-    "big-integer": "^1.6.43"
+    "big-integer": "^1.6.43",
+    "core-js": "^3.0.1"
   }
 }
