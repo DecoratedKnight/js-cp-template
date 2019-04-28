@@ -1,5 +1,5 @@
 import * as fs from 'fs'
-import "@babel/polyfill"
+import "core-js"
 // import bigInt from 'big-integer'
 
 const main = (input) => {
