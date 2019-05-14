@@ -14,4 +14,4 @@ npm run test ... dist/main.js を起動します。
 npm run clip ... dist/main.js の中身をクリップボードにコピーします。（pbcopyを使うのでおそらくMac専用）
 
 ## その他
-BigInteterの対応として、[BigInteger.js](https://www.npmjs.com/package/big-integer) を利用しています。
+BigIntegerの対応として、[BigInteger.js](https://www.npmjs.com/package/big-integer) を利用しています。
